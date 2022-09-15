@@ -22,5 +22,18 @@ function replay01(str2){
     let val03=value5.replace('eager','Ea') // here eager is replacing with Ea only
     console.log(val03)
 }
-let myString001="Am eager to waiting for my job"
+let myString001="Am eager Am to eager waiting for my job"
+// it replaces 1st marching string only
 replay01(myString001)
+
+
+// to repalce all similar values
+function Changes(string){
+    let replaceValue="Any";
+    let 
+
+}``                                                                                                                                                                                                                                                                                                                                                                                                                                                         `   `                                                                                                                                                                                                                                                                                                                                                               
+let someText="Any thing happens at any time and anywhere"
+Changes(someText)
+
+
