@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Randomm</title>
+</head>
+<body>
+
+    <script>
+        let x=prompt("enter low range of u r guess");
+        x=parseInt(x);
+        let y=prompt("enter high range of u r guess");
+        y=parseInt(y);
+        let z=prompt("enter guess number");
+        z=parseInt(z);
+        let num=Math.floor(Math.random()*(y-x))+x;
+        num=parseInt(num);
+        if(z===num){
+            document.write(" Hurray  u r guess num is "+z + " and random num is"+num);
+        }
+        else{
+            document.write('U failed the random number is' +num);
+        }
+
+    </script>
+    
+</body>
+</html>

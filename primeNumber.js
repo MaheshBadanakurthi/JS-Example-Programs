@@ -1,23 +1,23 @@
 
-function prime(value){
-    primeList=[]
+// function prime(value){
+//     primeList=[]
     
-    for(let i=2;i<=value;i++){
-        let num=123;
-       for(let j=2;j<i;j++){
-          if(i%j==0){
-            num=12;
-            break;
+//     for(let i=2;i<=value;i++){
+//         let num=true;
+//        for(let j=2;j<i;j++){
+//           if(i%j==0){
+//             num=false;
+//             break;
               
-           }  
-    }
-    if(i>1 && num==123){
-        primeList.push(i)
-    }
-  }
-    console.log(`the prime list is ${primeList}  and he length of it is ${primeList.length}`);
-}
-prime(100);
+//            }  
+//     }
+//     if(i>1 && num==true){
+//         primeList.push(i)
+//     }
+//   }
+//     console.log(`the prime list is ${primeList}  and he length of it is ${primeList.length}`);
+// }
+// prime(10);
 
 
 
@@ -42,7 +42,22 @@ prime(100);
 
 
 
+let num=12;
+for(i=1;i<=12;i++){
+  let x=1;
+  for(j=2;j<i;j++){
+    if(i%j==0){
+      x=23;
+      break;
+    }
+  
+  }
+  if(i>1 &&  x==1){
+    console.log(i)
+  }
 
+    
+}
 
 
 
