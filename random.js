@@ -1,7 +1,7 @@
 // Math.random() gives default 0 to 1 values like floor values only.
 // function randomNumber(){
-//     let num1=Math.random();
-//     console.log(num1)
+    let num1=Math.random();
+    console.log(num1)
 
 // }
 // randomNumber()
@@ -53,29 +53,29 @@
 //  Sum121();
 
 
-let strings='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+// let strings='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
 
-function anyString(value){
-    let sLength=strings.length
-    let stringValue=" ";// we have give it empty 
-    for (let i=0;i<=value;i++){
+// function anyString(value){
+//     let sLength=strings.length
+//     let stringValue=" ";// we have give it empty 
+//     for (let i=0;i<=value;i++){
         
-        stringValue = stringValue + strings.charAt(Math.floor(Math.random()*(sLength-1)+1));
-        //charAt takes index charecter so for index we are using 
+//         stringValue = stringValue + strings.charAt(Math.floor(Math.random()*(sLength-1)+1));
+//         //charAt takes index charecter so for index we are using 
 
-    }
-    console.log(`the string u r looking for `+ stringValue);
-}
-//setTimeout(anyString,4000)//  executing the function after 4 sec.
-anyString(6);
+//     }
+//     console.log(`the string u r looking for `+ stringValue);
+// }
+// //setTimeout(anyString,4000)//  executing the function after 4 sec.
+// anyString(6);
 
 
 
-/// random from array.
-let listMine=[3245,2345,546765,7689,234];
-let lenOf=listMine.length
-let listResult=listMine[(Math.floor(Math.random()*(lenOf-1)+1))];
-console.log(listResult);
+// /// random from array.
+// let listMine=[3245,2345,546765,7689,234];
+// let lenOf=listMine.length
+// let listResult=listMine[(Math.floor(Math.random()*(lenOf-1)+1))];
+// console.log(listResult);
 
 
 
