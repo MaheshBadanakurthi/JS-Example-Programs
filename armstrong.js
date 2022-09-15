@@ -2,7 +2,7 @@
 // x=num;
 // let tagetNumber=0;
 // while(num>0){
-//     let firstNumber = num%10;
+//     let  = num%10;
 //     let rem=firstNumber*firstNumber*firstNumber;
 //     tagetNumber+=rem;
 //     num=Math.floor(num/10);
