@@ -28,12 +28,31 @@ replay01(myString001)
 
 
 // to repalce all similar values
-function Changes(string){
-    let replaceValue="Any";
-    let 
+// function Changes(string){
+//     let result=string.replace(/a/g,"A")// every small   a  converts capital A
+//    console.log(result)
+//    //const result = string.split('a').join('A');   we use this statement also
 
-}``                                                                                                                                                                                                                                                                                                                                                                                                                                                         `   `                                                                                                                                                                                                                                                                                                                                                               
-let someText="Any thing happens at any time and anywhere"
+// }
+//                                                                                                                                                                                                                                                                                                                                                                                                                                                        `   `                                                                                                                                                                                                                                                                                                                                                               
+// let someText="Any thing happens at any time and anywhere"
+// Changes(someText)
+
+
+
+
+function Changes(string){
+    // let result=string.replace('\n',"<br>")// it applies to only once      means when it touches line end it sets <br> and do nothing.
+  let Sam=string.split('\n').join('<br>')// when it touches next line it add <br>
+
+
+  
+    console.log(Sam)
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                       `   `                                                                                                                                                                                                                                                                                                                                                               
+let someText=`Any thing happens
+ at any time 
+ and anywhere`
 Changes(someText)
 
 
