@@ -1,19 +1,19 @@
 // count of a single letter 
 function Charcount(str,letter){
     let Str=str.toLowerCase();// for  accurate occrences  cas JS is Casesensitive  
-    console.log(Str)
+    // console.log(Str) // for checking
     let count=0;
     for(i=0;i<Str.length;i++){
         if(letter==Str.charAt(i)){
             count+=1
         }
     }
-    console.log(`letter ${letter} occurense count ${count}`)
+    console.log(`letter ${letter} occurense count ${count}` )
 }
-Charcount('Mahesh','m')
+Charcount('Mahesh','h')
 
 
-
+// below is by using Regex 
 function charCount(str,letter){
     let String=str.toLowerCase();
     let pattern= /\w/gi;
