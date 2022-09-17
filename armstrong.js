@@ -19,6 +19,8 @@
 // console.log(isNaN(num));
 // console.log(isNaN(tagetNumber));
 
+
+// below is setting a range for getting arm strong  but it failed 
 for(i=4;i<=500;i++){
     let val=i.toString().length;
     let temp=i;
