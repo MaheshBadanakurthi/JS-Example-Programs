@@ -34,8 +34,8 @@
 //  }
 //  checkStringsAnagram("indian","ndiani")
 
-
-let x=["mahesh"]
+// not working if do like this 
+let Sam=["mahesh"]
 // let y=x.split('  ')
-let z=x.split('').sort().join(' ');  
+let z=Sam.sort().join(' ');  
 console.log(z);
