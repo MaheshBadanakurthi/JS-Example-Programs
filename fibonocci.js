@@ -14,8 +14,6 @@ let n1=0;
 let n2=1;
 let n3;
 let arr=[]
-
-
 function fibonocci(num){
     if(num<=0){
         console.log("enter more than 1");
