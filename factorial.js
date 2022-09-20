@@ -9,7 +9,7 @@ function factorial(num){
         fact=fact*i;
         }
     }
-    console.log(`the factorial is ${fact}`)
+    console.log(`The factorial is ${fact}`)
 }
 factorial(7);
 

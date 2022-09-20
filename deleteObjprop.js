@@ -17,7 +17,7 @@ const Student1= new Object({
 });
 console.log(Student1.Hobbies)
 delete Student1.Hobbies;
-console.log(Student1.Hobbies)
-console.log(Student1.name)
+console.log(Student1.Hobbies);
+console.log(Student1.name);
 delete Student1.name;
-console.log(Student1.name)
+console.log(Student1.name);
