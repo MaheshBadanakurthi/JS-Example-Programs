@@ -1,3 +1,4 @@
+// we are checking the largest of given numbers
 let x=12;
 let y=234;
 let z=34;
