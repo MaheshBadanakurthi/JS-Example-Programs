@@ -1,3 +1,5 @@
+// here we are comparing two strings
+
 class Anyname{
     constructor(name,place,place2){
 // here it is not necessary to write same as keys . it works based on the order preference
