@@ -21,24 +21,42 @@
 
 
 // below is setting a range for getting arm strong  but it failed 
-for(i=4;i<=500;i++){
-    let val=i.toString().length;
-    let temp=i;
-    let sum=0;
-    while(temp>0){
-        let num1=i%10;
-        sum=sum+num1**val;
-        temp=Math.floor(temp/10);
+// for(i=4;i<=500;i++){
+//     let val=i.toString().length;
+//     let temp=i;
+//     let sum=0;
+//     while(temp>0){
+//         let num1=i%10;
+//         sum=sum+num1**val;
+//         temp=Math.floor(temp/10);
+//     }
+//     if(sum ==i){
+//         console.log(i)
+//     }
+// }
+
+
+
+
+function Arm(num){
+    n1=num;
+    total=0;
+    while(num>0){
+        x=num%10;
+        rem=x**3;
+        total+=rem;
+        num=Math.floor(num/10);
     }
-    if(sum ==i){
-        console.log(i)
+    console.log(total)
+    if(total==n1){
+        console.log("Armstrong")
+    }
+    else{
+        console.log('Not Armstrong')
     }
 }
-
-
-
-
-
+let value=153;
+Arm(value)
 
 
 
