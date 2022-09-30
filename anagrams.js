@@ -39,3 +39,6 @@ let Sam=["mahesh"]
 // let y=x.split('  ')
 let z=Sam.sort().join(' ');  
 console.log(z);
+
+
+
