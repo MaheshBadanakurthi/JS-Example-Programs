@@ -1,7 +1,7 @@
 
 const VowelList=['a','e','i','o','u'];
 function VList(str){
-    let count=0;
+   
     let Vowels=[]
     let cons=[]
     for(letter of str.toLowerCase()){
