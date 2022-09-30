@@ -17,7 +17,7 @@
 function string(str){
     let x=str.split('')
     let y=x[0].toUpperCase();
-    
+    console.log(y)
 
 }
 const nam='mahesh'
