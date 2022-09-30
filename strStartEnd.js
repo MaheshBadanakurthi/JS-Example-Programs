@@ -4,11 +4,11 @@ function Startend(str){
     if(str.startsWith('M') && str.endsWith('h')){
         console.log("yes starts with M n ends with H")
     }
-    else if(str.startsWith('M')){
+    else if(str.startsWith('Ma')){
         console.log("only starts with M ")
 
     }
-    else if(str.endsWith('h')){
+    else if(str.endsWith('her')){
         console.log("only ends with H")
 
     }
@@ -17,7 +17,7 @@ function Startend(str){
 
 
 }
-Startend("ahes")
+Startend("aheshu")
 
 //we also writwe like this
 // if(str.startsWith('M/any letter') || str.startsWith('m/any lettter') && str.endsWith('h') || str.endsWith('H')){
