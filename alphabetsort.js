@@ -23,3 +23,29 @@ console.log(mahi)
 //     console.log('brooo its working ')
 // }
 // else console.log('noooo its not working')
+
+
+
+// foloowing is for Anagrams program
+function alpha(x,y){
+    let srt=x.toLowerCase().split('').sort().join('-')
+    let srt1=y.toLowerCase().split('').sort().join('-')
+    if(srt==srt1){
+        console.log('both are equal')
+    }
+    else
+    console.log("both are not equal ")
+}
+let str='rqptsvuyxwzAc';
+let Str1='rqptsvuyxwzaC'
+alpha(str,Str1)
+
+
+
+
+
+
+
+
+
+
