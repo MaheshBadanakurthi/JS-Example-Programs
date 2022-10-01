@@ -6,3 +6,4 @@ for (let i of sq){
          console.log(value);
          console.log(Math.sqrt('Mahesh'));// gives a NaN.
 }
+
