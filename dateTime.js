@@ -20,4 +20,4 @@ console.log(time)
 console.log(date.getHours()+"-"+date.getMinutes()+"-"+date.getMilliseconds())
 
 let x=new Date("Sep 16,2022 10:10:24").getTime();
-console.log(new Date().getTime())//not working
+console.log(new Date().getTime())//not working    
