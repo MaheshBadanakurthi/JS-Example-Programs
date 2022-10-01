@@ -30,3 +30,22 @@ function charCount(str,letter){
 }
 charCount("Maaaaaahesh is awoesome for a reason",'a')
 
+
+
+//
+function Char(str,char){
+    let Str=str.toLowerCase();
+    let count=0;
+    for (let i=0;i<=Str.length;i++){
+       if(char==Str.charAt(i)){
+          count+=1;
+       }
+    }
+    console.log(count)
+
+}
+Char(" Mahesh badanakurthi ",'h')
+
+
+
+
