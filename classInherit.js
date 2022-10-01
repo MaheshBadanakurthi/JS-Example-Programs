@@ -10,6 +10,7 @@ class Anyname{
         }
         
     }
+    // below is inheritance
     class secondClass extends Anyname{
         constructor(name,place,place2,gender){
             super(name,place,place2,gender); // by using super we calling that parent values inside to the child
@@ -19,3 +20,4 @@ class Anyname{
     }
     const obj1=new secondClass('Mahesh','Hyd','Vizag','Male');
     console.log(obj1);
+    
