@@ -1,7 +1,7 @@
 
 const Student1= new Object({
     name:"Marcus",
-    age:21,
+    age:21,  
     Hobbies:['cricket','kabaddi','running'],// Its a list
     // below is a function
     welcome:function(){
