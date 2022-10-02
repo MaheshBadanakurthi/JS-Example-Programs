@@ -5,7 +5,7 @@
 // const Sam=person;
 // // console.log(person,Sam)
 // Sam.name='Ramya'// if it have   it changes  else assigned
-// // when evver we change in Sam it applies to Person object.  \
+// // when ever we change in Sam it applies to Person object.  \
 // // To overcome this we us enext prog
 // Sam.Married="No"
 // console.log(person,Sam)
@@ -30,7 +30,7 @@ const Person={
     gender:"Male"
     
 }
-const Sam2={...Person }// its aspread operator but we have to use here Parent Object only
+const Sam2={...Person }// its a spread operator but we have to use here Parent Object only
 Sam2.Name="Rakesh"
 console.log(Sam2)
 console.log(Person)
