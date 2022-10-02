@@ -6,6 +6,6 @@ function Leapyear(num){
     else
     console.log("not a leap")
 }
-Leapyear(1645)
+Leapyear(1640)
 
 
