@@ -13,3 +13,13 @@ function factorial(num){
 }
 factorial(7);
 
+
+
+// without function
+let num=5;
+let x=1;
+let value;
+for(i=1;i<=num;i++){
+    x=x*i
+}
+console.log(x)
