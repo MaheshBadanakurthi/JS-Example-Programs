@@ -22,7 +22,7 @@ function Sam(){
     }
     const Student={
         Name:"Harish",
-        add:"Jagtiall",
+        add:"Jagtial",
         place:"DSPT"
     }
     // inheriting
