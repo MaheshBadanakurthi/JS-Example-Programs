@@ -71,11 +71,11 @@
 
 
 
-// /// random from array.
-// let listMine=[3245,2345,546765,7689,234];
-// let lenOf=listMine.length
-// let listResult=listMine[(Math.floor(Math.random()*(lenOf-1)+1))];
-// console.log(listResult);
+/// random from array.
+let listMine=[3245,2345,546765,7689];
+let lenOf=listMine.length
+let listResult=listMine[(Math.floor(Math.random()*(lenOf-1)+1))];
+console.log(listResult);
 
 
 
