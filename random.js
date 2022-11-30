@@ -73,7 +73,7 @@ anyString(6);
 
 
 /// random from array.
-let listMine=[3245,2345,546765,7689,123];
+let listMine=[3245,2345,546765,7689,123,88];
 let lenOf=listMine.length
 let listResult=listMine[(Math.floor(Math.random()*(lenOf-1)+1))];
 console.log(listResult);
