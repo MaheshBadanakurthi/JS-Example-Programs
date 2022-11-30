@@ -66,8 +66,9 @@
 //     }
 //     console.log(`the string u r looking for `+ stringValue);
 // }
-// //setTimeout(anyString,4000)//  executing the function after 4 sec.
-// anyString(6);
+setTimeout(anyString,4000)
+//  executing the function after 4 sec.
+anyString(6);
 
 
 
