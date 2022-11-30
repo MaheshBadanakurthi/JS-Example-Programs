@@ -13,4 +13,4 @@ function VList(str){
     console.log(`vowels are ${Vowels} count is ${Vowels.length}`)
     console.log( ` consonents are ${cons} count ${cons.length}`)
 }
-VList('mahesh is not so special')
+VList('mahesh is so special')
